@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:lines="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:drawableStart="@drawable/ic_create_black_24dp"
+        android:drawableLeft="@drawable/ic_create_black_24dp"
+        android:hint="제목:"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:text=""/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="등 록"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>

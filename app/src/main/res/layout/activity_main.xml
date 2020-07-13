@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:orientation="vertical"
+        android:background="#ffffff">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:src="@drawable/tiss"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="40dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/regisbt"
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginRight="20dp"
+            android:drawableTop="@drawable/regisbt"
+            android:padding="5px"
+            android:text="글 등록"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff" />
+        <Button
+            android:id="@+id/postbt"
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:background="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="20dp"
+            android:drawableTop="@drawable/postbt"
+            android:padding="5px"
+            android:text="글 목록"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="40dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+
+        android:layout_marginRight="40dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/envi"
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="20dp"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/envi"
+            android:padding="5px"
+            android:text="환경 설정"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffffff" />
+
+        <Button
+            android:id="@+id/logoutbt"
+            android:layout_width="120dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="20dp"
+            android:background="#ffffff"
+            android:drawableTop="@drawable/logoutbt"
+            android:padding="5px"
+            android:text="로그 아웃"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

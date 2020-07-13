@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tiss2</string>
+    <string name="title_activity_post">Map</string>
+    <string name="title_activity_setting_map">Map</string>
+</resources>

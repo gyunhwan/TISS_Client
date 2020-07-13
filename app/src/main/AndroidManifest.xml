@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dong.tiss2">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <service
+
+            android:name=".FirebaseMessagingService">
+
+            <intent-filter>
+
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+
+            </intent-filter>
+
+        </service>
+
+
+
+        <service
+
+            android:name=".FirebaseInstanceIDService">
+
+            <intent-filter>
+
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+
+            </intent-filter>
+
+        </service>
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity android:name=".PostDetail" />
+        <activity android:name=".JoinAct" />
+        <activity android:name=".UserAct" />
+        <activity android:name=".UserChaAct" />
+        <activity android:name=".SettingAct" />
+        <activity android:name=".PostSendAct" />
+        <activity android:name=".LoginAct" />
+        <activity
+            android:name=".PostAct"
+            android:label="@string/title_activity_post" />
+        <activity
+            android:name=".SettingMapAct"></activity>
+    </application>
+
+</manifest>

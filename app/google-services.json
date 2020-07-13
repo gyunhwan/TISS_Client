@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "837750922260",
+    "firebase_url": "https://tiss-31e40.firebaseio.com",
+    "project_id": "tiss-31e40",
+    "storage_bucket": "tiss-31e40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837750922260:android:183d6f271a9ea31f",
+        "android_client_info": {
+          "package_name": "com.example.dong.tiss2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837750922260-hqimrrtnlbf1uafotnk1bnp436mkr115.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-VD-rigsMZoH5FhPif79Vi11boFm9DwE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837750922260-hqimrrtnlbf1uafotnk1bnp436mkr115.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
